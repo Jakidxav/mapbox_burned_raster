@@ -30,7 +30,8 @@ shiny run --reload map_app.py
 ```
 
 You should see a map that looks like this:
-<img alt="A 3D Mapbox Globe showing how to display raster data burned onto vector shapefiles" src="./images/mapbox_globe_burned_raster_1.png" height="300" width="900">
-<img alt="A 3D Mapbox Globe showing how to display raster data burned onto vector shapefiles" src="./images/mapbox_globe_burned_raster_2.png" height="300" width="900">
+<img alt="A 3D Mapbox Globe showing how to display raster data burned onto vector shapefiles" src="./images/mapbox_globe_burned_raster_1.png" height="350" width="700">
+
+<img alt="A 3D Mapbox Globe showing how to display raster data burned onto vector shapefiles" src="./images/mapbox_globe_burned_raster_2.png" height="350" width="700">
 
 You might notice that the `server` function within `map_app.py` is empty. This is because `load_map.js` does the heavy lifting for us; it is easier to write and customize a Mapbox map in JavaScript and call it from the user interface than it is to write something in Python that is as performance and call it through a more traditional `@render` function.
