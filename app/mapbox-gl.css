@@ -23,6 +23,7 @@
 .mapboxgl-canvas-container.mapboxgl-interactive,
 .mapboxgl-ctrl-group button.mapboxgl-ctrl-compass {
     cursor: grab;
+    /* cursor: url(target.svg) 15 15, move; */
     -webkit-user-select: none;
     user-select: none
 }
@@ -34,6 +35,10 @@
 .mapboxgl-canvas-container.mapboxgl-interactive:active,
 .mapboxgl-ctrl-group button.mapboxgl-ctrl-compass:active {
     cursor: grabbing
+    /* cursor: <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" />
+            </svg> */
+    /* cursor: url('<svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" viewBox="0 0 320.995 320.995" x="0px" y="0px" height="200" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" viewbox="0 0 320.995 320.995" version="1.1">') */
 }
 
 .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate,
