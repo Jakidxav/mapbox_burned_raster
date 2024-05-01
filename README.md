@@ -24,7 +24,7 @@ conda activate raster_burn
 ```
 
 ## Creating vector layers
-There are two different data pre-processing approaches shown in this repository. The first is for burning raster data onto polygons (as in the case with the [GADM](https://gadm.org/download_world.html) data) and the second is for trying to burn the data onto a manually-created grid at the data's native resolution.
+There are two different data pre-processing approaches shown in this repository. The first is for burning raster data onto polygons (as in the case with the [GADM](https://gadm.org/download_world.html) data) and the second is for trying to burn the data onto a manually-created grid at the data's native resolution. Each approach has its own directory in `notebooks/` and should contain all of the files you need to replicate a specific track. 
 
 For the GADM approach specifically, I downloaded the level 1 and 2 boundary files separately instead of downloading the full dataset, which is quite large. I then had to merge level 1 and 2 subdivisions (because some countries only have states, not further subdivisions like counties).
 
